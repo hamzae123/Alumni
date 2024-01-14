@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="users_info.css">
+    <link rel="stylesheet" href="filter_users_info.css">
+    <link rel="stylesheet" type="text/css" href="path/to/users_info.css">
+    <link rel="stylesheet" type="text/css" href="path/to/filter_users_info.css">
+    <img src="path/to/default_image.jpg" alt="Default Image">
+      
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-database.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-storage.js"></script>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-image: url('assets/wallpaperflare.com_wallpaper (3).png');
+            background-size: cover;
+            background-repeat: no-repeat;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+        }
+
+        .page-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+        }
+
+        .user-card {
+            background-color: rgb(7, 11, 11);
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin: 10px;
+            padding: 20px;
+            text-align: center;
+            transition: transform 0.3s;
+            cursor: pointer;
+            flex: 0 0 calc(33.33% - 20px);
+        }
+
+        .user-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .user-card img {
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 15px;
+        }
+
+        .user-details {
+            font-size: 14px;
+            line-height: 1.6;
+            color: #555;
+        }
+
+        #signout-button {
+            position: fixed;
+            top: 20px;
+            left: 20px;
+            background-color: #fff;
+            border: 1px solid #ccc;
+            padding: 10px;
+            cursor: pointer;
+            z-index: 1000;
+        }
+    </style>
+
+    <script>
+        var firebaseConfig = {
+            // ...Votre configuration Firebase ici
+            apiKey: "AIzaSyDs2gZJ6wIRDOqEtzyIT7toug3Xs3-_w1E",
+        authDomain: "user-7c7f8.firebaseapp.com",
+        projectId: "user-7c7f8",
+        storageBucket: "user-7c7f8.appspot.com",
+        messagingSenderId: "55544751979",
+        appId: "1:55544751979:web:40366cb78cb1cf8162ce2e",
+        measurementId: "G-FP9KRJ1GV3"
+        };
+        firebase.initializeApp(firebaseConfig);
+
+        // Extract user ID from URL
+        const userId = new URLSearchParams(window.location.search).get('userId');
+
+        // If user ID is available, redirect to utilisateur_info.html with the user ID
+        if (userId) {
+            redirectToUserInfoPage(userId);
+        }
+
+        // Function to redirect to utilisateur_info.html with the user ID
+        function redirectToUserInfoPage(userId) {
+            window.location.href = `utilisateur_info.html?userId=${userId}`;
+        }
+
+        // Function to display user profile (you can modify this function as needed)
+        function displayUserProfile(userData) {
+            // Check if userData is defined before accessing properties
+            if (userData && userData.image) {
+                // Your existing code to display the user profile
+                // For example, you can call displayAllUsers or any other function here
+            } else {
+                // Handle the case where 'image' property is undefined
+                console.error('User data or image property is undefined.');
+            }
+        }
+
+        // Function to display all users
+        function displayAllUsers() {
+            firebase.database().ref('users').once('value').then(snapshot => {
+                const usersData = snapshot.val();
+                updateAllUsersList(usersData);
+            }).catch(error => {
+                console.error("Erreur lors de la récupération des données des utilisateurs:", error);
+            });
+        }
+
+        // Function to update the list of all users in the DOM
+        function updateAllUsersList(usersData) {
+            const allUsersListDiv = document.getElementById('allUsersList');
+
+            // Your existing code for updating the user list in the DOM
+            // ...
+
+            let usersHtml = '';
+            for (const userId in usersData) {
+                const userData = usersData[userId];
+                usersHtml += generateUserCardHtml(userData);
+            }
+
+            allUsersListDiv.innerHTML += usersHtml;
+            const userCards = document.querySelectorAll('.user-card');
+            userCards.forEach(card => {
+                card.addEventListener('click', () => {
+                    const userId = card.getAttribute('data-user-id');
+                    window.location.href = `utilisateur_info.html?userId=${userId}`;
+                });
+            });
+        }
+
+        // Function to generate the HTML code for a user card
+        function generateUserCardHtml(userData) {
+            return `
+                <div class="user-card" data-user-id="${userData.userId}">
+                    <img src="${userData.image || 'path/to/default_image.jpg'}" alt="Profile Image">
+                    <div class="user-details">
+                        <p><strong>Nom:</strong> ${userData.name || 'N/A'}</p>
+                        <p><strong>Prénom:</strong> ${userData.lastName || 'N/A'}</p>
+                    </div>
+                </div>
+            `;
+        }
+
+        // Function to sign out
+        function signOut() {
+            firebase.auth().signOut().then(() => {
+                window.location.href = 'index.html';
+            }).catch(error => {
+                console.error("Erreur lors de la déconnexion:", error);
+            });
+        }
+
+        // Insert signout button
+        document.body.insertAdjacentHTML('beforeend', '<button id="signout-button" onclick="signOut()">Signout</button>');
+
+        // Call the function to display all users when the page loads
+        window.onload = () => {
+            displayAllUsers();
+        };
+    </script>
+</body> 
+</html>

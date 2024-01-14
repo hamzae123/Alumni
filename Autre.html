@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<!-- saved from url=(0054)file:///C:/Users/User/Desktop/Alumni/page-1/Autre.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <link rel="stylesheet" href="file:///C:/Users/User/Desktop/Alumni/page-1/users_info.css">
+    <link rel="stylesheet" href="file:///C:/Users/User/Desktop/Alumni/page-1/filter_users_info.css">
+    <link rel="stylesheet" type="text/css" href="file:///C:/Users/User/Desktop/Alumni/page-1/path/to/users_info.css">
+    <link rel="stylesheet" type="text/css" href="file:///C:/Users/User/Desktop/Alumni/page-1/path/to/filter_users_info.css">
+    </head><body>
+      
+    <script src="./Autre_files/firebase-app.js.téléchargement"></script>
+    <script src="./Autre_files/firebase-auth.js.téléchargement"></script>
+    <script src="./Autre_files/firebase-database.js.téléchargement"></script>
+    <script src="./Autre_files/firebase-storage.js.téléchargement"></script>
+
+    <style>
+      body {
+          font-family: Arial, sans-serif;
+          background-image: url('assets/wallpaperflare.com_wallpaper (3).png');
+          background-size: cover;
+          background-repeat: no-repeat;
+          display: flex;
+          flex-direction: column; /* Change to column layout */
+          align-items: center;
+          min-height: 100vh;
+          margin: 0;
+          color: #333;
+      }
+
+      .search-container {
+          text-align: center;
+          margin-top: 20px; /* Move the search bar to the top */
+          margin-bottom: 20px;
+      }
+
+      #searchInput {
+          padding: 10px;
+          font-size: 16px;
+          border-radius: 5px;
+      }
+
+      .page-container {
+          display: flex;
+          flex-wrap: wrap;
+          gap: 20px;
+          justify-content: center;
+      }
+
+      .user-card {
+          background-color: rgb(199, 207, 221);
+          border-radius: 8px;
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+          margin: 10px;
+          padding: 20px;
+          text-align: center;
+          transition: transform 0.3s;
+          cursor: pointer;
+          flex: 0 0 calc(33.33% - 20px);
+      }
+
+      .user-card:hover {
+          transform: translateY(-5px);
+      }
+
+      .user-card img {
+          width: 80px;
+          height: 80px;
+          border-radius: 50%;
+          object-fit: cover;
+          margin-bottom: 15px;
+      }
+
+      .user-details {
+          font-size: 14px;
+          line-height: 1.6;
+          color: #555;
+      }
+
+      #signout-button {
+          position: fixed;
+          top: 20px;
+          left: 20px;
+          background-color: #fff;
+          border: 1px solid #ccc;
+          padding: 10px;
+          cursor: pointer;
+          z-index: 1000;
+      }
+  </style>
+  
+      
+      <!-- Ajoutez ces lignes à votre code -->
+<div class="user-interaction">
+  
+  
+</div>
+
+  
+  
+  <script>
+      var firebaseConfig = {
+          // ...Votre configuration Firebase ici
+          apiKey: "AIzaSyDs2gZJ6wIRDOqEtzyIT7toug3Xs3-_w1E",
+        authDomain: "user-7c7f8.firebaseapp.com",
+        projectId: "user-7c7f8",
+        storageBucket: "user-7c7f8.appspot.com",
+        messagingSenderId: "55544751979",
+        appId: "1:55544751979:web:40366cb78cb1cf8162ce2e",
+        measurementId: "G-FP9KRJ1GV3"
+      };
+      firebase.initializeApp(firebaseConfig);
+      const userId = new URLSearchParams(window.location.search).get('userId');
+  </script>
+
+   
+    <div id="likeCountDisplay"></div>
+    <div id="studentInfoContainer"></div>
+    <div class="search-container">
+      <input type="text" id="searchInput" placeholder="Rechercher par nom, prénom, etc." oninput="filterUsers()">
+  </div>
+        <div class="page-container" id="allUsersList"> 
+            <!-- La liste de tous les utilisateurs sera affichée ici   -->
+      
+                
+            
+                
+            
+                
+                
+                
+        
+           
+        
+    </div>
+            
+
+      <script>
+          // Fonction pour afficher la liste de tous les utilisateurs
+          function displayAllUsers() {
+              firebase.database().ref('users').once('value').then(snapshot => {
+                  const usersData = snapshot.val();
+                  updateAllUsersList(usersData);
+              }).catch(error => {
+                  console.error("Erreur lors de la récupération des données des utilisateurs:", error);
+              });
+          }
+          
+
+        
+
+          // Fonction pour mettre à jour la liste de tous les utilisateurs dans le DOM
+  // Fonction pour mettre à jour la liste de tous les utilisateurs dans le DOM
+  function updateAllUsersList(usersData) {
+      const allUsersListDiv = document.getElementById('allUsersList');
+     
+
+      // Obtenez tous les identifiants d'utilisateur de la base de données
+      const databaseUserIds = Object.keys(usersData);
+
+      // Obtenez tous les identifiants d'utilisateur des cartes actuelles
+      const currentCardUserIds = Array.from(allUsersListDiv.querySelectorAll('.user-card')).map(card => card.getAttribute('data-user-id'));
+
+      // Identifiants d'utilisateurs à supprimer (ceux qui sont dans les cartes actuelles mais pas dans la base de données)
+       const useridsToRemove = currentCardUserIds.filter(userId => !databaseUserIds.includes(userId));
+
+      // Supprimer les cartes correspondant aux identifiants d'utilisateurs à supprimer
+      useridsToRemove.forEach(userIdToRemove => {
+          const cardToRemove = allUsersListDiv.querySelector(`.user-card[data-user-id="${userIdToRemove}"]`);
+          if (cardToRemove) {
+              cardToRemove.remove();
+          }
+      });
+      
+      let usersHtml = '';
+      for (const userId in usersData) {
+          const userData = usersData[userId];
+          usersHtml += generateUserCardHtml(userData);
+      }
+
+      allUsersListDiv.innerHTML += usersHtml;
+      const userCards = document.querySelectorAll('.user-card');
+      userCards.forEach(card => {
+
+      });
+    }
+    
+ 
+
+
+
+        // Fonction pour générer le code HTML d'une carte utilisateur
+        function generateUserCardHtml(userData) {
+            return `
+                <div class="user-card">
+                    <img src="${userData.image || 'path/to/default_image.jpg'}" alt="Profile Image">
+                    <div class="user-details">
+                        <p><strong>Nom:</strong> ${userData.name || 'N/A'}</p>
+                        <p><strong>Prénom:</strong> ${userData.lastName || 'N/A'}</p>
+                        <p><strong>Phone Number:</strong> ${userData.phoneNumber}</p>
+                        <p><strong>Birth Date:</strong> ${userData.birthDate}</p>
+                        <p><strong>Age:</strong> ${userData.age}</p>
+                        <p><strong>Identity Number:</strong> ${userData.identityNumber}</p>
+                        <p><strong>City:</strong> ${userData.city}</p>
+                        <p><strong>Current Year of Study:</strong> ${userData.yearOfStudy}</p>
+                        <p><strong>School:</strong> ${userData.school}</p>
+                        <p><strong>University:</strong> ${userData.university}</p>
+                        <p><strong>Year of Registration:</strong> ${userData.yearOfRegistration}</p>
+                        <p><strong>Year of Graduation:</strong> ${userData.yearOfGraduation}</p>
+                        <p><strong>Major:</strong> ${userData.major}</p>
+                        <p><strong>Clubs:</strong> ${userData.clubs}</p>
+                        <p><strong>Interests:</strong> ${userData.interests}</p>
+                        <p><strong>Social Networks:</strong> ${userData.socialNetworks}</p>
+                        <p><strong>Current Job:</strong> ${userData.currentJob}</p>
+                    </div>
+                </div>
+            `;
+        }
+
+        // Fonction pour la déconnexion (Signout)
+        function signOut() {
+            firebase.auth().signOut().then(() => {
+                window.location.href = 'index.html';
+            }).catch(error => {
+                console.error("Erreur lors de la déconnexion:", error);
+            });
+        }
+
+        document.body.insertAdjacentHTML('beforeend', '<button id="signout-button" onclick="signOut()">Signout</button>');
+
+        // Appelez la fonction pour afficher tous les utilisateurs au chargement de la page
+        window.onload = () => {
+            displayAllUsers();
+        };
+        function displayUserProfile(userData) {
+    // Check if userData is defined before accessing properties
+    if (userData && userData.image) {
+        // Your existing code to display the user profile
+    } else {
+        // Handle the case where 'image' property is undefined
+        console.error('User data or image property is undefined.');
+    }
+}
+function filterUsers() {
+            const searchInput = document.getElementById('searchInput');
+            const searchTerm = searchInput.value.toLowerCase();
+
+            // Filtrer les cartes d'utilisateurs
+            const userCards = document.querySelectorAll('.user-card');
+            userCards.forEach(card => {
+                const userDetails = card.querySelector('.user-details').innerText.toLowerCase();
+                if (userDetails.includes(searchTerm)) {
+                    card.style.display = 'block';
+                } else {
+                    card.style.display = 'none';
+                }
+            });
+        }
+        // Fonction pour générer le code HTML d'une carte utilisateur
+function generateUserCardHtml(userData) {
+    return `
+        <div class="user-card" data-user-id="${userData.userId}">
+            <img src="${userData.image || 'path/to/default_image.jpg'}" alt="Profile Image">
+            <div class="user-details">
+                <p><strong>Nom:</strong> ${userData.name || 'N/A'}</p>
+                <p><strong>Prénom:</strong> ${userData.lastName || 'N/A'}</p>
+                        <p><strong>Phone Number:</strong> ${userData.phoneNumber}</p>
+                        <p><strong>Birth Date:</strong> ${userData.birthDate}</p>
+                        <p><strong>Age:</strong> ${userData.age}</p>
+                        <p><strong>Identity Number:</strong> ${userData.identityNumber}</p>
+                        <p><strong>City:</strong> ${userData.city}</p>
+                        <p><strong>Current Year of Study:</strong> ${userData.yearOfStudy}</p>
+                        <p><strong>School:</strong> ${userData.school}</p>
+                        <p><strong>University:</strong> ${userData.university}</p>
+                        <p><strong>Year of Registration:</strong> ${userData.yearOfRegistration}</p>
+                        <p><strong>Year of Graduation:</strong> ${userData.yearOfGraduation}</p>
+                        <p><strong>Major:</strong> ${userData.major}</p>
+                        <p><strong>Clubs:</strong> ${userData.clubs}</p>
+                        <p><strong>Interests:</strong> ${userData.interests}</p>
+                        <p><strong>Social Networks:</strong> ${userData.socialNetworks}</p>
+                        <p><strong>Current Job:</strong> ${userData.currentJob}</p>
+            </div>
+            <div class="user-interaction">
+                <button class="interaction-button" onclick="interact('like', '${userData.userId}')">👍</button>
+                <button class="interaction-button" onclick="interact('heart', '${userData.userId}')">❤️</button>
+            </div>
+        </div>
+    `;
+}
+
+        
+       
+    </script><button id="signout-button" onclick="signOut()">Signout</button><button id="signout-button" onclick="signOut()">Signout</button>
+
+ 
+
+</body></html>

@@ -1,0 +1,439 @@
+
+html {
+	font-size:62.5%;
+}
+* {
+	margin: 0;
+	padding: 0;
+}
+ul, li {
+	list-style: none;
+}
+input {
+	border: none;
+}
+body {
+  width: 144rem;
+}.frame-7-PhK {
+  width: 100%;
+  height: 127.7rem;
+  position: relative;
+  overflow: hidden;
+  background-color: #ffffff;
+}
+.frame-7-PhK .line-3-rL1 {
+  width: 144.005rem;
+  height: 0.1rem;
+  position: absolute;
+  left: 0;
+  top: 16.805rem;
+  background-color: #bebebe;
+}
+.frame-7-PhK .auto-group-75ih-kgH {
+  width: 142.3rem;
+  height: 16.1rem;
+  position: absolute;
+  left: 0;
+  top: 0.5rem;
+  display: flex;
+  align-items: center;
+}
+.frame-7-PhK .auto-group-75ih-kgH .alumni-1-5Tf {
+  margin-bottom: 1.3rem;
+  width: 14.9rem;
+  height: 14.8rem;
+  object-fit: cover;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.frame-7-PhK .auto-group-75ih-kgH .ecole-normale-suprieure-cCh {
+  margin: 0rem 82.6rem 3.6rem 0rem;
+  max-width: 9.4rem;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.3025;
+  color: #000000;
+  font-family: Inika, 'Source Sans Pro';
+  flex-shrink: 0;
+}
+.frame-7-PhK .auto-group-75ih-kgH .ecole-normale-suprieure-cCh .ecole-normale-suprieure-cCh-sub-0 {
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.2575;
+  color: #0075fe;
+  font-family: Lemon, 'Source Sans Pro';
+}
+.frame-7-PhK .auto-group-75ih-kgH .ecole-normale-suprieure-cCh .ecole-normale-suprieure-cCh-sub-1 {
+}
+.frame-7-PhK .auto-group-75ih-kgH .ecole-normale-suprieure-cCh .ecole-normale-suprieure-cCh-sub-2 {
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.2575;
+  color: #0075fe;
+  font-family: Lemon, 'Source Sans Pro';
+}
+.frame-7-PhK .auto-group-75ih-kgH .ecole-normale-suprieure-cCh .ecole-normale-suprieure-cCh-sub-3 {
+}
+.frame-7-PhK .auto-group-75ih-kgH .ecole-normale-suprieure-cCh .ecole-normale-suprieure-cCh-sub-4 {
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.2575;
+  color: #0075fe;
+  font-family: Lemon, 'Source Sans Pro';
+}
+.frame-7-PhK .auto-group-75ih-kgH .ecole-normale-suprieure-cCh .ecole-normale-suprieure-cCh-sub-5 {
+}
+.frame-7-PhK .auto-group-75ih-kgH .auto-group-smgd-Keq {
+  margin-top: 0.2rem;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+.frame-7-PhK .auto-group-75ih-kgH .auto-group-smgd-Keq .full-name-UGq {
+  margin-bottom: 0.4rem;
+  font-size: 2.4rem;
+  font-weight: 400;
+  line-height: 1.3025;
+  color: #000000;
+  font-family: Inika, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.frame-7-PhK .auto-group-75ih-kgH .auto-group-smgd-Keq .espace-exploration-des-rseaux-alumni-ens-yzH {
+  margin-bottom: 0.9rem;
+  max-width: 35.4rem;
+  font-size: 2.4rem;
+  font-weight: 400;
+  line-height: 1.3025;
+  color: #000000;
+  font-family: Inika, 'Source Sans Pro';
+  flex-shrink: 0;
+}
+.frame-7-PhK .auto-group-75ih-kgH .auto-group-smgd-Keq .espace-exploration-des-rseaux-alumni-ens-yzH .espace-exploration-des-rseaux-alumni-ens-yzH-sub-0 {
+}
+.frame-7-PhK .auto-group-75ih-kgH .auto-group-smgd-Keq .espace-exploration-des-rseaux-alumni-ens-yzH .espace-exploration-des-rseaux-alumni-ens-yzH-sub-1 {
+  font-size: 2.4rem;
+  font-weight: 400;
+  line-height: 1.2575;
+  color: #0075fe;
+  font-family: Lemon, 'Source Sans Pro';
+}
+.frame-7-PhK .auto-group-75ih-kgH .auto-group-smgd-Keq .espace-exploration-des-rseaux-alumni-ens-yzH .espace-exploration-des-rseaux-alumni-ens-yzH-sub-2 {
+}
+.frame-7-PhK .auto-group-75ih-kgH .auto-group-smgd-Keq .auto-group-mhpm-X8d {
+  display: flex;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.frame-7-PhK .auto-group-75ih-kgH .auto-group-smgd-Keq .auto-group-mhpm-X8d .icone-de-deconnexion-vecteur-symbole-vecteur-fleche-de-deconnexion-et-icone-de-porte-sortie-icone-de-signe-de-deconnexion-symbole-de-deconnexion-gratuit-vectoriel-1-rRo {
+  margin-right: 1rem;
+  width: 2.7rem;
+  height: 3.7rem;
+  cursor: pointer;
+  object-fit: cover;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.frame-7-PhK .auto-group-75ih-kgH .auto-group-smgd-Keq .auto-group-mhpm-X8d .dconnexion-ttH {
+  margin-right: 14.4rem;
+  font-size: 2.4rem;
+  font-weight: 400;
+  line-height: 1.3025;
+  color: #0075fe;
+  font-family: Inika, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.frame-7-PhK .auto-group-75ih-kgH .auto-group-smgd-Keq .auto-group-mhpm-X8d .fr-DvZ {
+  margin-top: 2.4rem;
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 1.3025;
+  color: #0075fe;
+  font-family: Inika, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.frame-7-PhK .line-4-Yxq {
+  width: 144.0006rem;
+  height: 0.1rem;
+  position: absolute;
+  left: 0;
+  top: 25.1rem;
+  background-color: #bebebe;
+}
+.frame-7-PhK .auto-group-fhx7-t17 {
+  width: 144.0001rem;
+  height: 107.1rem;
+  position: absolute;
+  left: 0;
+  top: 29.8rem;
+}
+.frame-7-PhK .auto-group-fhx7-t17 .alumni-3-QVF {
+  width: 14.9rem;
+  height: 14.8rem;
+  position: absolute;
+  left: 0;
+  top: 81.3rem;
+  object-fit: cover;
+  vertical-align: top;
+}
+.frame-7-PhK .auto-group-fhx7-t17 .ecole-normale-suprieure-hDT {
+  width: 9.4rem;
+  height: 6.3rem;
+  position: absolute;
+  left: 14.9rem;
+  top: 84.6rem;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.3025;
+  color: #000000;
+  font-family: Inika, 'Source Sans Pro';
+}
+.frame-7-PhK .auto-group-fhx7-t17 .ecole-normale-suprieure-hDT .ecole-normale-suprieure-hDT-sub-0 {
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.2575;
+  color: #0075fe;
+  font-family: Lemon, 'Source Sans Pro';
+}
+.frame-7-PhK .auto-group-fhx7-t17 .ecole-normale-suprieure-hDT .ecole-normale-suprieure-hDT-sub-1 {
+}
+.frame-7-PhK .auto-group-fhx7-t17 .ecole-normale-suprieure-hDT .ecole-normale-suprieure-hDT-sub-2 {
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.2575;
+  color: #0075fe;
+  font-family: Lemon, 'Source Sans Pro';
+}
+.frame-7-PhK .auto-group-fhx7-t17 .ecole-normale-suprieure-hDT .ecole-normale-suprieure-hDT-sub-3 {
+}
+.frame-7-PhK .auto-group-fhx7-t17 .ecole-normale-suprieure-hDT .ecole-normale-suprieure-hDT-sub-4 {
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.2575;
+  color: #0075fe;
+  font-family: Lemon, 'Source Sans Pro';
+}
+.frame-7-PhK .auto-group-fhx7-t17 .ecole-normale-suprieure-hDT .ecole-normale-suprieure-hDT-sub-5 {
+}
+.frame-7-PhK .auto-group-fhx7-t17 .line-6-Syf {
+  width: 144.0001rem;
+  height: 0.2rem;
+  position: absolute;
+  left: 0rem;
+  top: 78.4rem;
+  background-color: #0075fe;
+}
+.frame-7-PhK .auto-group-fhx7-t17 .servicealumnigmailma-xBK {
+  width: 23.7rem;
+  height: 2.7rem;
+  position: absolute;
+  left: 90.3rem;
+  top: 87rem;
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 1.3025;
+  color: #000000;
+  font-family: Inika, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.frame-7-PhK .auto-group-fhx7-t17 .item-212-647177587-2gy {
+  width: 12.7rem;
+  height: 2.7rem;
+  position: absolute;
+  left: 120.9rem;
+  top: 87rem;
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 1.3025;
+  color: #000000;
+  font-family: Inika, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.frame-7-PhK .auto-group-fhx7-t17 .bienvenue-sur-lespace-exploration-des-rseaux-alumni-de-lcole-normale-suprieure-ens-un-lieu-ddi-la-dcouverte-et-la-connexion-au-sein-de-notre-communaut-mondiale-danciens-lves-notre-mission-notre-mission-est-de-crer-une-plateforme-dynamique-o-les-liens-perdurent-au-del-des-murs-de-luniversit-nous-aspirons-inspirer-les-tudiants-actuels-et-futurs-en-mettant-en-lumire-les-succs-varis-de-nos-anciens-diplms-tout-en-facilitant-les-connexions-et-les-collaborations-professionnelles-ce-que-nous-offrons-exploration-des-parcours-plongez-dans-les-rcits-fascinants-de-nos-alumni-explorant-leurs-diverses-trajectoires-professionnelles-et-personnelles-dcouvrez-comment-ils-ont-appliqu-leurs-connaissances-acquises-lens-dans-le-monde-rel-engagez-vous-avec-nous-rejoignez-nous-dans-cette-aventure-passionnante-de-dcouverte-et-de-connexion-explorez-les-profils-participez-des-vnements-partagez-vos-succs-et-contribuez-la-croissance-continue-de-notre-communaut-alumni-connectons-nous-pour-grandir-ensemble-lquipe-de-ens-alumni-LSm {
+  width: 93.5rem;
+  height: 105rem;
+  position: absolute;
+  left: 2.7rem;
+  top: 2.1rem;
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 1.3025;
+  color: #000000;
+  font-family: Inika, 'Source Sans Pro';
+}
+.frame-7-PhK .auto-group-fhx7-t17 .bienvenue-sur-lespace-exploration-des-rseaux-alumni-de-lcole-normale-suprieure-ens-un-lieu-ddi-la-dcouverte-et-la-connexion-au-sein-de-notre-communaut-mondiale-danciens-lves-notre-mission-notre-mission-est-de-crer-une-plateforme-dynamique-o-les-liens-perdurent-au-del-des-murs-de-luniversit-nous-aspirons-inspirer-les-tudiants-actuels-et-futurs-en-mettant-en-lumire-les-succs-varis-de-nos-anciens-diplms-tout-en-facilitant-les-connexions-et-les-collaborations-professionnelles-ce-que-nous-offrons-exploration-des-parcours-plongez-dans-les-rcits-fascinants-de-nos-alumni-explorant-leurs-diverses-trajectoires-professionnelles-et-personnelles-dcouvrez-comment-ils-ont-appliqu-leurs-connaissances-acquises-lens-dans-le-monde-rel-engagez-vous-avec-nous-rejoignez-nous-dans-cette-aventure-passionnante-de-dcouverte-et-de-connexion-explorez-les-profils-participez-des-vnements-partagez-vos-succs-et-contribuez-la-croissance-continue-de-notre-communaut-alumni-connectons-nous-pour-grandir-ensemble-lquipe-de-ens-alumni-LSm .bienvenue-sur-lespace-exploration-des-rseaux-alumni-de-lcole-normale-suprieure-ens-un-lieu-ddi-la-dcouverte-et-la-connexion-au-sein-de-notre-communaut-mondiale-danciens-lves-notre-mission-notre-mission-est-de-crer-une-plateforme-dynamique-o-les-liens-perdurent-au-del-des-murs-de-luniversit-nous-aspirons-inspirer-les-tudiants-actuels-et-futurs-en-mettant-en-lumire-les-succs-varis-de-nos-anciens-diplms-tout-en-facilitant-les-connexions-et-les-collaborations-professionnelles-ce-que-nous-offrons-exploration-des-parcours-plongez-dans-les-rcits-fascinants-de-nos-alumni-explorant-leurs-diverses-trajectoires-professionnelles-et-personnelles-dcouvrez-comment-ils-ont-appliqu-leurs-connaissances-acquises-lens-dans-le-monde-rel-engagez-vous-avec-nous-rejoignez-nous-dans-cette-aventure-passionnante-de-dcouverte-et-de-connexion-explorez-les-profils-participez-des-vnements-partagez-vos-succs-et-contribuez-la-croissance-continue-de-notre-communaut-alumni-connectons-nous-pour-grandir-ensemble-lquipe-de-ens-alumni-LSm-sub-0 {
+}
+.frame-7-PhK .auto-group-fhx7-t17 .bienvenue-sur-lespace-exploration-des-rseaux-alumni-de-lcole-normale-suprieure-ens-un-lieu-ddi-la-dcouverte-et-la-connexion-au-sein-de-notre-communaut-mondiale-danciens-lves-notre-mission-notre-mission-est-de-crer-une-plateforme-dynamique-o-les-liens-perdurent-au-del-des-murs-de-luniversit-nous-aspirons-inspirer-les-tudiants-actuels-et-futurs-en-mettant-en-lumire-les-succs-varis-de-nos-anciens-diplms-tout-en-facilitant-les-connexions-et-les-collaborations-professionnelles-ce-que-nous-offrons-exploration-des-parcours-plongez-dans-les-rcits-fascinants-de-nos-alumni-explorant-leurs-diverses-trajectoires-professionnelles-et-personnelles-dcouvrez-comment-ils-ont-appliqu-leurs-connaissances-acquises-lens-dans-le-monde-rel-engagez-vous-avec-nous-rejoignez-nous-dans-cette-aventure-passionnante-de-dcouverte-et-de-connexion-explorez-les-profils-participez-des-vnements-partagez-vos-succs-et-contribuez-la-croissance-continue-de-notre-communaut-alumni-connectons-nous-pour-grandir-ensemble-lquipe-de-ens-alumni-LSm .bienvenue-sur-lespace-exploration-des-rseaux-alumni-de-lcole-normale-suprieure-ens-un-lieu-ddi-la-dcouverte-et-la-connexion-au-sein-de-notre-communaut-mondiale-danciens-lves-notre-mission-notre-mission-est-de-crer-une-plateforme-dynamique-o-les-liens-perdurent-au-del-des-murs-de-luniversit-nous-aspirons-inspirer-les-tudiants-actuels-et-futurs-en-mettant-en-lumire-les-succs-varis-de-nos-anciens-diplms-tout-en-facilitant-les-connexions-et-les-collaborations-professionnelles-ce-que-nous-offrons-exploration-des-parcours-plongez-dans-les-rcits-fascinants-de-nos-alumni-explorant-leurs-diverses-trajectoires-professionnelles-et-personnelles-dcouvrez-comment-ils-ont-appliqu-leurs-connaissances-acquises-lens-dans-le-monde-rel-engagez-vous-avec-nous-rejoignez-nous-dans-cette-aventure-passionnante-de-dcouverte-et-de-connexion-explorez-les-profils-participez-des-vnements-partagez-vos-succs-et-contribuez-la-croissance-continue-de-notre-communaut-alumni-connectons-nous-pour-grandir-ensemble-lquipe-de-ens-alumni-LSm-sub-1 {
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 1.3025;
+  color: #0075fe;
+  font-family: Inika, 'Source Sans Pro';
+}
+.frame-7-PhK .auto-group-fhx7-t17 .bienvenue-sur-lespace-exploration-des-rseaux-alumni-de-lcole-normale-suprieure-ens-un-lieu-ddi-la-dcouverte-et-la-connexion-au-sein-de-notre-communaut-mondiale-danciens-lves-notre-mission-notre-mission-est-de-crer-une-plateforme-dynamique-o-les-liens-perdurent-au-del-des-murs-de-luniversit-nous-aspirons-inspirer-les-tudiants-actuels-et-futurs-en-mettant-en-lumire-les-succs-varis-de-nos-anciens-diplms-tout-en-facilitant-les-connexions-et-les-collaborations-professionnelles-ce-que-nous-offrons-exploration-des-parcours-plongez-dans-les-rcits-fascinants-de-nos-alumni-explorant-leurs-diverses-trajectoires-professionnelles-et-personnelles-dcouvrez-comment-ils-ont-appliqu-leurs-connaissances-acquises-lens-dans-le-monde-rel-engagez-vous-avec-nous-rejoignez-nous-dans-cette-aventure-passionnante-de-dcouverte-et-de-connexion-explorez-les-profils-participez-des-vnements-partagez-vos-succs-et-contribuez-la-croissance-continue-de-notre-communaut-alumni-connectons-nous-pour-grandir-ensemble-lquipe-de-ens-alumni-LSm .bienvenue-sur-lespace-exploration-des-rseaux-alumni-de-lcole-normale-suprieure-ens-un-lieu-ddi-la-dcouverte-et-la-connexion-au-sein-de-notre-communaut-mondiale-danciens-lves-notre-mission-notre-mission-est-de-crer-une-plateforme-dynamique-o-les-liens-perdurent-au-del-des-murs-de-luniversit-nous-aspirons-inspirer-les-tudiants-actuels-et-futurs-en-mettant-en-lumire-les-succs-varis-de-nos-anciens-diplms-tout-en-facilitant-les-connexions-et-les-collaborations-professionnelles-ce-que-nous-offrons-exploration-des-parcours-plongez-dans-les-rcits-fascinants-de-nos-alumni-explorant-leurs-diverses-trajectoires-professionnelles-et-personnelles-dcouvrez-comment-ils-ont-appliqu-leurs-connaissances-acquises-lens-dans-le-monde-rel-engagez-vous-avec-nous-rejoignez-nous-dans-cette-aventure-passionnante-de-dcouverte-et-de-connexion-explorez-les-profils-participez-des-vnements-partagez-vos-succs-et-contribuez-la-croissance-continue-de-notre-communaut-alumni-connectons-nous-pour-grandir-ensemble-lquipe-de-ens-alumni-LSm-sub-2 {
+  font-size: 2.4rem;
+  font-weight: 400;
+  line-height: 1.3025;
+  color: #0075fe;
+  font-family: Inika, 'Source Sans Pro';
+}
+.frame-7-PhK .auto-group-fhx7-t17 .bienvenue-sur-lespace-exploration-des-rseaux-alumni-de-lcole-normale-suprieure-ens-un-lieu-ddi-la-dcouverte-et-la-connexion-au-sein-de-notre-communaut-mondiale-danciens-lves-notre-mission-notre-mission-est-de-crer-une-plateforme-dynamique-o-les-liens-perdurent-au-del-des-murs-de-luniversit-nous-aspirons-inspirer-les-tudiants-actuels-et-futurs-en-mettant-en-lumire-les-succs-varis-de-nos-anciens-diplms-tout-en-facilitant-les-connexions-et-les-collaborations-professionnelles-ce-que-nous-offrons-exploration-des-parcours-plongez-dans-les-rcits-fascinants-de-nos-alumni-explorant-leurs-diverses-trajectoires-professionnelles-et-personnelles-dcouvrez-comment-ils-ont-appliqu-leurs-connaissances-acquises-lens-dans-le-monde-rel-engagez-vous-avec-nous-rejoignez-nous-dans-cette-aventure-passionnante-de-dcouverte-et-de-connexion-explorez-les-profils-participez-des-vnements-partagez-vos-succs-et-contribuez-la-croissance-continue-de-notre-communaut-alumni-connectons-nous-pour-grandir-ensemble-lquipe-de-ens-alumni-LSm .bienvenue-sur-lespace-exploration-des-rseaux-alumni-de-lcole-normale-suprieure-ens-un-lieu-ddi-la-dcouverte-et-la-connexion-au-sein-de-notre-communaut-mondiale-danciens-lves-notre-mission-notre-mission-est-de-crer-une-plateforme-dynamique-o-les-liens-perdurent-au-del-des-murs-de-luniversit-nous-aspirons-inspirer-les-tudiants-actuels-et-futurs-en-mettant-en-lumire-les-succs-varis-de-nos-anciens-diplms-tout-en-facilitant-les-connexions-et-les-collaborations-professionnelles-ce-que-nous-offrons-exploration-des-parcours-plongez-dans-les-rcits-fascinants-de-nos-alumni-explorant-leurs-diverses-trajectoires-professionnelles-et-personnelles-dcouvrez-comment-ils-ont-appliqu-leurs-connaissances-acquises-lens-dans-le-monde-rel-engagez-vous-avec-nous-rejoignez-nous-dans-cette-aventure-passionnante-de-dcouverte-et-de-connexion-explorez-les-profils-participez-des-vnements-partagez-vos-succs-et-contribuez-la-croissance-continue-de-notre-communaut-alumni-connectons-nous-pour-grandir-ensemble-lquipe-de-ens-alumni-LSm-sub-3 {
+}
+.frame-7-PhK .auto-group-fhx7-t17 .bienvenue-sur-lespace-exploration-des-rseaux-alumni-de-lcole-normale-suprieure-ens-un-lieu-ddi-la-dcouverte-et-la-connexion-au-sein-de-notre-communaut-mondiale-danciens-lves-notre-mission-notre-mission-est-de-crer-une-plateforme-dynamique-o-les-liens-perdurent-au-del-des-murs-de-luniversit-nous-aspirons-inspirer-les-tudiants-actuels-et-futurs-en-mettant-en-lumire-les-succs-varis-de-nos-anciens-diplms-tout-en-facilitant-les-connexions-et-les-collaborations-professionnelles-ce-que-nous-offrons-exploration-des-parcours-plongez-dans-les-rcits-fascinants-de-nos-alumni-explorant-leurs-diverses-trajectoires-professionnelles-et-personnelles-dcouvrez-comment-ils-ont-appliqu-leurs-connaissances-acquises-lens-dans-le-monde-rel-engagez-vous-avec-nous-rejoignez-nous-dans-cette-aventure-passionnante-de-dcouverte-et-de-connexion-explorez-les-profils-participez-des-vnements-partagez-vos-succs-et-contribuez-la-croissance-continue-de-notre-communaut-alumni-connectons-nous-pour-grandir-ensemble-lquipe-de-ens-alumni-LSm .bienvenue-sur-lespace-exploration-des-rseaux-alumni-de-lcole-normale-suprieure-ens-un-lieu-ddi-la-dcouverte-et-la-connexion-au-sein-de-notre-communaut-mondiale-danciens-lves-notre-mission-notre-mission-est-de-crer-une-plateforme-dynamique-o-les-liens-perdurent-au-del-des-murs-de-luniversit-nous-aspirons-inspirer-les-tudiants-actuels-et-futurs-en-mettant-en-lumire-les-succs-varis-de-nos-anciens-diplms-tout-en-facilitant-les-connexions-et-les-collaborations-professionnelles-ce-que-nous-offrons-exploration-des-parcours-plongez-dans-les-rcits-fascinants-de-nos-alumni-explorant-leurs-diverses-trajectoires-professionnelles-et-personnelles-dcouvrez-comment-ils-ont-appliqu-leurs-connaissances-acquises-lens-dans-le-monde-rel-engagez-vous-avec-nous-rejoignez-nous-dans-cette-aventure-passionnante-de-dcouverte-et-de-connexion-explorez-les-profils-participez-des-vnements-partagez-vos-succs-et-contribuez-la-croissance-continue-de-notre-communaut-alumni-connectons-nous-pour-grandir-ensemble-lquipe-de-ens-alumni-LSm-sub-4 {
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.3025;
+  color: #000000;
+  font-family: Inika, 'Source Sans Pro';
+}
+.frame-7-PhK .auto-group-fhx7-t17 .bienvenue-sur-lespace-exploration-des-rseaux-alumni-de-lcole-normale-suprieure-ens-un-lieu-ddi-la-dcouverte-et-la-connexion-au-sein-de-notre-communaut-mondiale-danciens-lves-notre-mission-notre-mission-est-de-crer-une-plateforme-dynamique-o-les-liens-perdurent-au-del-des-murs-de-luniversit-nous-aspirons-inspirer-les-tudiants-actuels-et-futurs-en-mettant-en-lumire-les-succs-varis-de-nos-anciens-diplms-tout-en-facilitant-les-connexions-et-les-collaborations-professionnelles-ce-que-nous-offrons-exploration-des-parcours-plongez-dans-les-rcits-fascinants-de-nos-alumni-explorant-leurs-diverses-trajectoires-professionnelles-et-personnelles-dcouvrez-comment-ils-ont-appliqu-leurs-connaissances-acquises-lens-dans-le-monde-rel-engagez-vous-avec-nous-rejoignez-nous-dans-cette-aventure-passionnante-de-dcouverte-et-de-connexion-explorez-les-profils-participez-des-vnements-partagez-vos-succs-et-contribuez-la-croissance-continue-de-notre-communaut-alumni-connectons-nous-pour-grandir-ensemble-lquipe-de-ens-alumni-LSm .bienvenue-sur-lespace-exploration-des-rseaux-alumni-de-lcole-normale-suprieure-ens-un-lieu-ddi-la-dcouverte-et-la-connexion-au-sein-de-notre-communaut-mondiale-danciens-lves-notre-mission-notre-mission-est-de-crer-une-plateforme-dynamique-o-les-liens-perdurent-au-del-des-murs-de-luniversit-nous-aspirons-inspirer-les-tudiants-actuels-et-futurs-en-mettant-en-lumire-les-succs-varis-de-nos-anciens-diplms-tout-en-facilitant-les-connexions-et-les-collaborations-professionnelles-ce-que-nous-offrons-exploration-des-parcours-plongez-dans-les-rcits-fascinants-de-nos-alumni-explorant-leurs-diverses-trajectoires-professionnelles-et-personnelles-dcouvrez-comment-ils-ont-appliqu-leurs-connaissances-acquises-lens-dans-le-monde-rel-engagez-vous-avec-nous-rejoignez-nous-dans-cette-aventure-passionnante-de-dcouverte-et-de-connexion-explorez-les-profils-participez-des-vnements-partagez-vos-succs-et-contribuez-la-croissance-continue-de-notre-communaut-alumni-connectons-nous-pour-grandir-ensemble-lquipe-de-ens-alumni-LSm-sub-5 {
+  font-size: 2.2rem;
+  font-weight: 400;
+  line-height: 1.3025;
+  color: #0075fe;
+  font-family: Inika, 'Source Sans Pro';
+}
+.frame-7-PhK .auto-group-fhx7-t17 .bienvenue-sur-lespace-exploration-des-rseaux-alumni-de-lcole-normale-suprieure-ens-un-lieu-ddi-la-dcouverte-et-la-connexion-au-sein-de-notre-communaut-mondiale-danciens-lves-notre-mission-notre-mission-est-de-crer-une-plateforme-dynamique-o-les-liens-perdurent-au-del-des-murs-de-luniversit-nous-aspirons-inspirer-les-tudiants-actuels-et-futurs-en-mettant-en-lumire-les-succs-varis-de-nos-anciens-diplms-tout-en-facilitant-les-connexions-et-les-collaborations-professionnelles-ce-que-nous-offrons-exploration-des-parcours-plongez-dans-les-rcits-fascinants-de-nos-alumni-explorant-leurs-diverses-trajectoires-professionnelles-et-personnelles-dcouvrez-comment-ils-ont-appliqu-leurs-connaissances-acquises-lens-dans-le-monde-rel-engagez-vous-avec-nous-rejoignez-nous-dans-cette-aventure-passionnante-de-dcouverte-et-de-connexion-explorez-les-profils-participez-des-vnements-partagez-vos-succs-et-contribuez-la-croissance-continue-de-notre-communaut-alumni-connectons-nous-pour-grandir-ensemble-lquipe-de-ens-alumni-LSm .bienvenue-sur-lespace-exploration-des-rseaux-alumni-de-lcole-normale-suprieure-ens-un-lieu-ddi-la-dcouverte-et-la-connexion-au-sein-de-notre-communaut-mondiale-danciens-lves-notre-mission-notre-mission-est-de-crer-une-plateforme-dynamique-o-les-liens-perdurent-au-del-des-murs-de-luniversit-nous-aspirons-inspirer-les-tudiants-actuels-et-futurs-en-mettant-en-lumire-les-succs-varis-de-nos-anciens-diplms-tout-en-facilitant-les-connexions-et-les-collaborations-professionnelles-ce-que-nous-offrons-exploration-des-parcours-plongez-dans-les-rcits-fascinants-de-nos-alumni-explorant-leurs-diverses-trajectoires-professionnelles-et-personnelles-dcouvrez-comment-ils-ont-appliqu-leurs-connaissances-acquises-lens-dans-le-monde-rel-engagez-vous-avec-nous-rejoignez-nous-dans-cette-aventure-passionnante-de-dcouverte-et-de-connexion-explorez-les-profils-participez-des-vnements-partagez-vos-succs-et-contribuez-la-croissance-continue-de-notre-communaut-alumni-connectons-nous-pour-grandir-ensemble-lquipe-de-ens-alumni-LSm-sub-6 {
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 1.3025;
+  color: #0075fe;
+  font-family: Inika, 'Source Sans Pro';
+}
+.frame-7-PhK .auto-group-fhx7-t17 .bienvenue-sur-lespace-exploration-des-rseaux-alumni-de-lcole-normale-suprieure-ens-un-lieu-ddi-la-dcouverte-et-la-connexion-au-sein-de-notre-communaut-mondiale-danciens-lves-notre-mission-notre-mission-est-de-crer-une-plateforme-dynamique-o-les-liens-perdurent-au-del-des-murs-de-luniversit-nous-aspirons-inspirer-les-tudiants-actuels-et-futurs-en-mettant-en-lumire-les-succs-varis-de-nos-anciens-diplms-tout-en-facilitant-les-connexions-et-les-collaborations-professionnelles-ce-que-nous-offrons-exploration-des-parcours-plongez-dans-les-rcits-fascinants-de-nos-alumni-explorant-leurs-diverses-trajectoires-professionnelles-et-personnelles-dcouvrez-comment-ils-ont-appliqu-leurs-connaissances-acquises-lens-dans-le-monde-rel-engagez-vous-avec-nous-rejoignez-nous-dans-cette-aventure-passionnante-de-dcouverte-et-de-connexion-explorez-les-profils-participez-des-vnements-partagez-vos-succs-et-contribuez-la-croissance-continue-de-notre-communaut-alumni-connectons-nous-pour-grandir-ensemble-lquipe-de-ens-alumni-LSm .bienvenue-sur-lespace-exploration-des-rseaux-alumni-de-lcole-normale-suprieure-ens-un-lieu-ddi-la-dcouverte-et-la-connexion-au-sein-de-notre-communaut-mondiale-danciens-lves-notre-mission-notre-mission-est-de-crer-une-plateforme-dynamique-o-les-liens-perdurent-au-del-des-murs-de-luniversit-nous-aspirons-inspirer-les-tudiants-actuels-et-futurs-en-mettant-en-lumire-les-succs-varis-de-nos-anciens-diplms-tout-en-facilitant-les-connexions-et-les-collaborations-professionnelles-ce-que-nous-offrons-exploration-des-parcours-plongez-dans-les-rcits-fascinants-de-nos-alumni-explorant-leurs-diverses-trajectoires-professionnelles-et-personnelles-dcouvrez-comment-ils-ont-appliqu-leurs-connaissances-acquises-lens-dans-le-monde-rel-engagez-vous-avec-nous-rejoignez-nous-dans-cette-aventure-passionnante-de-dcouverte-et-de-connexion-explorez-les-profils-participez-des-vnements-partagez-vos-succs-et-contribuez-la-croissance-continue-de-notre-communaut-alumni-connectons-nous-pour-grandir-ensemble-lquipe-de-ens-alumni-LSm-sub-7 {
+}
+.frame-7-PhK .auto-group-fhx7-t17 .bienvenue-sur-lespace-exploration-des-rseaux-alumni-de-lcole-normale-suprieure-ens-un-lieu-ddi-la-dcouverte-et-la-connexion-au-sein-de-notre-communaut-mondiale-danciens-lves-notre-mission-notre-mission-est-de-crer-une-plateforme-dynamique-o-les-liens-perdurent-au-del-des-murs-de-luniversit-nous-aspirons-inspirer-les-tudiants-actuels-et-futurs-en-mettant-en-lumire-les-succs-varis-de-nos-anciens-diplms-tout-en-facilitant-les-connexions-et-les-collaborations-professionnelles-ce-que-nous-offrons-exploration-des-parcours-plongez-dans-les-rcits-fascinants-de-nos-alumni-explorant-leurs-diverses-trajectoires-professionnelles-et-personnelles-dcouvrez-comment-ils-ont-appliqu-leurs-connaissances-acquises-lens-dans-le-monde-rel-engagez-vous-avec-nous-rejoignez-nous-dans-cette-aventure-passionnante-de-dcouverte-et-de-connexion-explorez-les-profils-participez-des-vnements-partagez-vos-succs-et-contribuez-la-croissance-continue-de-notre-communaut-alumni-connectons-nous-pour-grandir-ensemble-lquipe-de-ens-alumni-LSm .bienvenue-sur-lespace-exploration-des-rseaux-alumni-de-lcole-normale-suprieure-ens-un-lieu-ddi-la-dcouverte-et-la-connexion-au-sein-de-notre-communaut-mondiale-danciens-lves-notre-mission-notre-mission-est-de-crer-une-plateforme-dynamique-o-les-liens-perdurent-au-del-des-murs-de-luniversit-nous-aspirons-inspirer-les-tudiants-actuels-et-futurs-en-mettant-en-lumire-les-succs-varis-de-nos-anciens-diplms-tout-en-facilitant-les-connexions-et-les-collaborations-professionnelles-ce-que-nous-offrons-exploration-des-parcours-plongez-dans-les-rcits-fascinants-de-nos-alumni-explorant-leurs-diverses-trajectoires-professionnelles-et-personnelles-dcouvrez-comment-ils-ont-appliqu-leurs-connaissances-acquises-lens-dans-le-monde-rel-engagez-vous-avec-nous-rejoignez-nous-dans-cette-aventure-passionnante-de-dcouverte-et-de-connexion-explorez-les-profils-participez-des-vnements-partagez-vos-succs-et-contribuez-la-croissance-continue-de-notre-communaut-alumni-connectons-nous-pour-grandir-ensemble-lquipe-de-ens-alumni-LSm-sub-8 {
+  font-size: 2.4rem;
+  font-weight: 400;
+  line-height: 1.3025;
+  color: #000000;
+  font-family: Inika, 'Source Sans Pro';
+}
+.frame-7-PhK .auto-group-fhx7-t17 .bienvenue-sur-lespace-exploration-des-rseaux-alumni-de-lcole-normale-suprieure-ens-un-lieu-ddi-la-dcouverte-et-la-connexion-au-sein-de-notre-communaut-mondiale-danciens-lves-notre-mission-notre-mission-est-de-crer-une-plateforme-dynamique-o-les-liens-perdurent-au-del-des-murs-de-luniversit-nous-aspirons-inspirer-les-tudiants-actuels-et-futurs-en-mettant-en-lumire-les-succs-varis-de-nos-anciens-diplms-tout-en-facilitant-les-connexions-et-les-collaborations-professionnelles-ce-que-nous-offrons-exploration-des-parcours-plongez-dans-les-rcits-fascinants-de-nos-alumni-explorant-leurs-diverses-trajectoires-professionnelles-et-personnelles-dcouvrez-comment-ils-ont-appliqu-leurs-connaissances-acquises-lens-dans-le-monde-rel-engagez-vous-avec-nous-rejoignez-nous-dans-cette-aventure-passionnante-de-dcouverte-et-de-connexion-explorez-les-profils-participez-des-vnements-partagez-vos-succs-et-contribuez-la-croissance-continue-de-notre-communaut-alumni-connectons-nous-pour-grandir-ensemble-lquipe-de-ens-alumni-LSm .bienvenue-sur-lespace-exploration-des-rseaux-alumni-de-lcole-normale-suprieure-ens-un-lieu-ddi-la-dcouverte-et-la-connexion-au-sein-de-notre-communaut-mondiale-danciens-lves-notre-mission-notre-mission-est-de-crer-une-plateforme-dynamique-o-les-liens-perdurent-au-del-des-murs-de-luniversit-nous-aspirons-inspirer-les-tudiants-actuels-et-futurs-en-mettant-en-lumire-les-succs-varis-de-nos-anciens-diplms-tout-en-facilitant-les-connexions-et-les-collaborations-professionnelles-ce-que-nous-offrons-exploration-des-parcours-plongez-dans-les-rcits-fascinants-de-nos-alumni-explorant-leurs-diverses-trajectoires-professionnelles-et-personnelles-dcouvrez-comment-ils-ont-appliqu-leurs-connaissances-acquises-lens-dans-le-monde-rel-engagez-vous-avec-nous-rejoignez-nous-dans-cette-aventure-passionnante-de-dcouverte-et-de-connexion-explorez-les-profils-participez-des-vnements-partagez-vos-succs-et-contribuez-la-croissance-continue-de-notre-communaut-alumni-connectons-nous-pour-grandir-ensemble-lquipe-de-ens-alumni-LSm-sub-9 {
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.3025;
+  color: #000000;
+  font-family: Inika, 'Source Sans Pro';
+}
+.frame-7-PhK .auto-group-fhx7-t17 .bienvenue-sur-lespace-exploration-des-rseaux-alumni-de-lcole-normale-suprieure-ens-un-lieu-ddi-la-dcouverte-et-la-connexion-au-sein-de-notre-communaut-mondiale-danciens-lves-notre-mission-notre-mission-est-de-crer-une-plateforme-dynamique-o-les-liens-perdurent-au-del-des-murs-de-luniversit-nous-aspirons-inspirer-les-tudiants-actuels-et-futurs-en-mettant-en-lumire-les-succs-varis-de-nos-anciens-diplms-tout-en-facilitant-les-connexions-et-les-collaborations-professionnelles-ce-que-nous-offrons-exploration-des-parcours-plongez-dans-les-rcits-fascinants-de-nos-alumni-explorant-leurs-diverses-trajectoires-professionnelles-et-personnelles-dcouvrez-comment-ils-ont-appliqu-leurs-connaissances-acquises-lens-dans-le-monde-rel-engagez-vous-avec-nous-rejoignez-nous-dans-cette-aventure-passionnante-de-dcouverte-et-de-connexion-explorez-les-profils-participez-des-vnements-partagez-vos-succs-et-contribuez-la-croissance-continue-de-notre-communaut-alumni-connectons-nous-pour-grandir-ensemble-lquipe-de-ens-alumni-LSm .bienvenue-sur-lespace-exploration-des-rseaux-alumni-de-lcole-normale-suprieure-ens-un-lieu-ddi-la-dcouverte-et-la-connexion-au-sein-de-notre-communaut-mondiale-danciens-lves-notre-mission-notre-mission-est-de-crer-une-plateforme-dynamique-o-les-liens-perdurent-au-del-des-murs-de-luniversit-nous-aspirons-inspirer-les-tudiants-actuels-et-futurs-en-mettant-en-lumire-les-succs-varis-de-nos-anciens-diplms-tout-en-facilitant-les-connexions-et-les-collaborations-professionnelles-ce-que-nous-offrons-exploration-des-parcours-plongez-dans-les-rcits-fascinants-de-nos-alumni-explorant-leurs-diverses-trajectoires-professionnelles-et-personnelles-dcouvrez-comment-ils-ont-appliqu-leurs-connaissances-acquises-lens-dans-le-monde-rel-engagez-vous-avec-nous-rejoignez-nous-dans-cette-aventure-passionnante-de-dcouverte-et-de-connexion-explorez-les-profils-participez-des-vnements-partagez-vos-succs-et-contribuez-la-croissance-continue-de-notre-communaut-alumni-connectons-nous-pour-grandir-ensemble-lquipe-de-ens-alumni-LSm-sub-10 {
+  font-size: 2.4rem;
+  font-weight: 400;
+  line-height: 1.3025;
+  color: #0075fe;
+  font-family: Inika, 'Source Sans Pro';
+}
+.frame-7-PhK .auto-group-fhx7-t17 .bienvenue-sur-lespace-exploration-des-rseaux-alumni-de-lcole-normale-suprieure-ens-un-lieu-ddi-la-dcouverte-et-la-connexion-au-sein-de-notre-communaut-mondiale-danciens-lves-notre-mission-notre-mission-est-de-crer-une-plateforme-dynamique-o-les-liens-perdurent-au-del-des-murs-de-luniversit-nous-aspirons-inspirer-les-tudiants-actuels-et-futurs-en-mettant-en-lumire-les-succs-varis-de-nos-anciens-diplms-tout-en-facilitant-les-connexions-et-les-collaborations-professionnelles-ce-que-nous-offrons-exploration-des-parcours-plongez-dans-les-rcits-fascinants-de-nos-alumni-explorant-leurs-diverses-trajectoires-professionnelles-et-personnelles-dcouvrez-comment-ils-ont-appliqu-leurs-connaissances-acquises-lens-dans-le-monde-rel-engagez-vous-avec-nous-rejoignez-nous-dans-cette-aventure-passionnante-de-dcouverte-et-de-connexion-explorez-les-profils-participez-des-vnements-partagez-vos-succs-et-contribuez-la-croissance-continue-de-notre-communaut-alumni-connectons-nous-pour-grandir-ensemble-lquipe-de-ens-alumni-LSm .bienvenue-sur-lespace-exploration-des-rseaux-alumni-de-lcole-normale-suprieure-ens-un-lieu-ddi-la-dcouverte-et-la-connexion-au-sein-de-notre-communaut-mondiale-danciens-lves-notre-mission-notre-mission-est-de-crer-une-plateforme-dynamique-o-les-liens-perdurent-au-del-des-murs-de-luniversit-nous-aspirons-inspirer-les-tudiants-actuels-et-futurs-en-mettant-en-lumire-les-succs-varis-de-nos-anciens-diplms-tout-en-facilitant-les-connexions-et-les-collaborations-professionnelles-ce-que-nous-offrons-exploration-des-parcours-plongez-dans-les-rcits-fascinants-de-nos-alumni-explorant-leurs-diverses-trajectoires-professionnelles-et-personnelles-dcouvrez-comment-ils-ont-appliqu-leurs-connaissances-acquises-lens-dans-le-monde-rel-engagez-vous-avec-nous-rejoignez-nous-dans-cette-aventure-passionnante-de-dcouverte-et-de-connexion-explorez-les-profils-participez-des-vnements-partagez-vos-succs-et-contribuez-la-croissance-continue-de-notre-communaut-alumni-connectons-nous-pour-grandir-ensemble-lquipe-de-ens-alumni-LSm-sub-11 {
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 1.3025;
+  color: #0075fe;
+  font-family: Inika, 'Source Sans Pro';
+}
+.frame-7-PhK .auto-group-fhx7-t17 .bienvenue-sur-lespace-exploration-des-rseaux-alumni-de-lcole-normale-suprieure-ens-un-lieu-ddi-la-dcouverte-et-la-connexion-au-sein-de-notre-communaut-mondiale-danciens-lves-notre-mission-notre-mission-est-de-crer-une-plateforme-dynamique-o-les-liens-perdurent-au-del-des-murs-de-luniversit-nous-aspirons-inspirer-les-tudiants-actuels-et-futurs-en-mettant-en-lumire-les-succs-varis-de-nos-anciens-diplms-tout-en-facilitant-les-connexions-et-les-collaborations-professionnelles-ce-que-nous-offrons-exploration-des-parcours-plongez-dans-les-rcits-fascinants-de-nos-alumni-explorant-leurs-diverses-trajectoires-professionnelles-et-personnelles-dcouvrez-comment-ils-ont-appliqu-leurs-connaissances-acquises-lens-dans-le-monde-rel-engagez-vous-avec-nous-rejoignez-nous-dans-cette-aventure-passionnante-de-dcouverte-et-de-connexion-explorez-les-profils-participez-des-vnements-partagez-vos-succs-et-contribuez-la-croissance-continue-de-notre-communaut-alumni-connectons-nous-pour-grandir-ensemble-lquipe-de-ens-alumni-LSm .bienvenue-sur-lespace-exploration-des-rseaux-alumni-de-lcole-normale-suprieure-ens-un-lieu-ddi-la-dcouverte-et-la-connexion-au-sein-de-notre-communaut-mondiale-danciens-lves-notre-mission-notre-mission-est-de-crer-une-plateforme-dynamique-o-les-liens-perdurent-au-del-des-murs-de-luniversit-nous-aspirons-inspirer-les-tudiants-actuels-et-futurs-en-mettant-en-lumire-les-succs-varis-de-nos-anciens-diplms-tout-en-facilitant-les-connexions-et-les-collaborations-professionnelles-ce-que-nous-offrons-exploration-des-parcours-plongez-dans-les-rcits-fascinants-de-nos-alumni-explorant-leurs-diverses-trajectoires-professionnelles-et-personnelles-dcouvrez-comment-ils-ont-appliqu-leurs-connaissances-acquises-lens-dans-le-monde-rel-engagez-vous-avec-nous-rejoignez-nous-dans-cette-aventure-passionnante-de-dcouverte-et-de-connexion-explorez-les-profils-participez-des-vnements-partagez-vos-succs-et-contribuez-la-croissance-continue-de-notre-communaut-alumni-connectons-nous-pour-grandir-ensemble-lquipe-de-ens-alumni-LSm-sub-12 {
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.3025;
+  color: #000000;
+  font-family: Inika, 'Source Sans Pro';
+}
+.frame-7-PhK .auto-group-fhx7-t17 .bienvenue-sur-lespace-exploration-des-rseaux-alumni-de-lcole-normale-suprieure-ens-un-lieu-ddi-la-dcouverte-et-la-connexion-au-sein-de-notre-communaut-mondiale-danciens-lves-notre-mission-notre-mission-est-de-crer-une-plateforme-dynamique-o-les-liens-perdurent-au-del-des-murs-de-luniversit-nous-aspirons-inspirer-les-tudiants-actuels-et-futurs-en-mettant-en-lumire-les-succs-varis-de-nos-anciens-diplms-tout-en-facilitant-les-connexions-et-les-collaborations-professionnelles-ce-que-nous-offrons-exploration-des-parcours-plongez-dans-les-rcits-fascinants-de-nos-alumni-explorant-leurs-diverses-trajectoires-professionnelles-et-personnelles-dcouvrez-comment-ils-ont-appliqu-leurs-connaissances-acquises-lens-dans-le-monde-rel-engagez-vous-avec-nous-rejoignez-nous-dans-cette-aventure-passionnante-de-dcouverte-et-de-connexion-explorez-les-profils-participez-des-vnements-partagez-vos-succs-et-contribuez-la-croissance-continue-de-notre-communaut-alumni-connectons-nous-pour-grandir-ensemble-lquipe-de-ens-alumni-LSm .bienvenue-sur-lespace-exploration-des-rseaux-alumni-de-lcole-normale-suprieure-ens-un-lieu-ddi-la-dcouverte-et-la-connexion-au-sein-de-notre-communaut-mondiale-danciens-lves-notre-mission-notre-mission-est-de-crer-une-plateforme-dynamique-o-les-liens-perdurent-au-del-des-murs-de-luniversit-nous-aspirons-inspirer-les-tudiants-actuels-et-futurs-en-mettant-en-lumire-les-succs-varis-de-nos-anciens-diplms-tout-en-facilitant-les-connexions-et-les-collaborations-professionnelles-ce-que-nous-offrons-exploration-des-parcours-plongez-dans-les-rcits-fascinants-de-nos-alumni-explorant-leurs-diverses-trajectoires-professionnelles-et-personnelles-dcouvrez-comment-ils-ont-appliqu-leurs-connaissances-acquises-lens-dans-le-monde-rel-engagez-vous-avec-nous-rejoignez-nous-dans-cette-aventure-passionnante-de-dcouverte-et-de-connexion-explorez-les-profils-participez-des-vnements-partagez-vos-succs-et-contribuez-la-croissance-continue-de-notre-communaut-alumni-connectons-nous-pour-grandir-ensemble-lquipe-de-ens-alumni-LSm-sub-13 {
+}
+.frame-7-PhK .auto-group-fhx7-t17 .bienvenue-sur-lespace-exploration-des-rseaux-alumni-de-lcole-normale-suprieure-ens-un-lieu-ddi-la-dcouverte-et-la-connexion-au-sein-de-notre-communaut-mondiale-danciens-lves-notre-mission-notre-mission-est-de-crer-une-plateforme-dynamique-o-les-liens-perdurent-au-del-des-murs-de-luniversit-nous-aspirons-inspirer-les-tudiants-actuels-et-futurs-en-mettant-en-lumire-les-succs-varis-de-nos-anciens-diplms-tout-en-facilitant-les-connexions-et-les-collaborations-professionnelles-ce-que-nous-offrons-exploration-des-parcours-plongez-dans-les-rcits-fascinants-de-nos-alumni-explorant-leurs-diverses-trajectoires-professionnelles-et-personnelles-dcouvrez-comment-ils-ont-appliqu-leurs-connaissances-acquises-lens-dans-le-monde-rel-engagez-vous-avec-nous-rejoignez-nous-dans-cette-aventure-passionnante-de-dcouverte-et-de-connexion-explorez-les-profils-participez-des-vnements-partagez-vos-succs-et-contribuez-la-croissance-continue-de-notre-communaut-alumni-connectons-nous-pour-grandir-ensemble-lquipe-de-ens-alumni-LSm .bienvenue-sur-lespace-exploration-des-rseaux-alumni-de-lcole-normale-suprieure-ens-un-lieu-ddi-la-dcouverte-et-la-connexion-au-sein-de-notre-communaut-mondiale-danciens-lves-notre-mission-notre-mission-est-de-crer-une-plateforme-dynamique-o-les-liens-perdurent-au-del-des-murs-de-luniversit-nous-aspirons-inspirer-les-tudiants-actuels-et-futurs-en-mettant-en-lumire-les-succs-varis-de-nos-anciens-diplms-tout-en-facilitant-les-connexions-et-les-collaborations-professionnelles-ce-que-nous-offrons-exploration-des-parcours-plongez-dans-les-rcits-fascinants-de-nos-alumni-explorant-leurs-diverses-trajectoires-professionnelles-et-personnelles-dcouvrez-comment-ils-ont-appliqu-leurs-connaissances-acquises-lens-dans-le-monde-rel-engagez-vous-avec-nous-rejoignez-nous-dans-cette-aventure-passionnante-de-dcouverte-et-de-connexion-explorez-les-profils-participez-des-vnements-partagez-vos-succs-et-contribuez-la-croissance-continue-de-notre-communaut-alumni-connectons-nous-pour-grandir-ensemble-lquipe-de-ens-alumni-LSm-sub-14 {
+  font-size: 3.2rem;
+  font-weight: 400;
+  line-height: 1.3025;
+  color: #000000;
+  font-family: Inika, 'Source Sans Pro';
+}
+.frame-7-PhK .auto-group-fhx7-t17 .bienvenue-sur-lespace-exploration-des-rseaux-alumni-de-lcole-normale-suprieure-ens-un-lieu-ddi-la-dcouverte-et-la-connexion-au-sein-de-notre-communaut-mondiale-danciens-lves-notre-mission-notre-mission-est-de-crer-une-plateforme-dynamique-o-les-liens-perdurent-au-del-des-murs-de-luniversit-nous-aspirons-inspirer-les-tudiants-actuels-et-futurs-en-mettant-en-lumire-les-succs-varis-de-nos-anciens-diplms-tout-en-facilitant-les-connexions-et-les-collaborations-professionnelles-ce-que-nous-offrons-exploration-des-parcours-plongez-dans-les-rcits-fascinants-de-nos-alumni-explorant-leurs-diverses-trajectoires-professionnelles-et-personnelles-dcouvrez-comment-ils-ont-appliqu-leurs-connaissances-acquises-lens-dans-le-monde-rel-engagez-vous-avec-nous-rejoignez-nous-dans-cette-aventure-passionnante-de-dcouverte-et-de-connexion-explorez-les-profils-participez-des-vnements-partagez-vos-succs-et-contribuez-la-croissance-continue-de-notre-communaut-alumni-connectons-nous-pour-grandir-ensemble-lquipe-de-ens-alumni-LSm .bienvenue-sur-lespace-exploration-des-rseaux-alumni-de-lcole-normale-suprieure-ens-un-lieu-ddi-la-dcouverte-et-la-connexion-au-sein-de-notre-communaut-mondiale-danciens-lves-notre-mission-notre-mission-est-de-crer-une-plateforme-dynamique-o-les-liens-perdurent-au-del-des-murs-de-luniversit-nous-aspirons-inspirer-les-tudiants-actuels-et-futurs-en-mettant-en-lumire-les-succs-varis-de-nos-anciens-diplms-tout-en-facilitant-les-connexions-et-les-collaborations-professionnelles-ce-que-nous-offrons-exploration-des-parcours-plongez-dans-les-rcits-fascinants-de-nos-alumni-explorant-leurs-diverses-trajectoires-professionnelles-et-personnelles-dcouvrez-comment-ils-ont-appliqu-leurs-connaissances-acquises-lens-dans-le-monde-rel-engagez-vous-avec-nous-rejoignez-nous-dans-cette-aventure-passionnante-de-dcouverte-et-de-connexion-explorez-les-profils-participez-des-vnements-partagez-vos-succs-et-contribuez-la-croissance-continue-de-notre-communaut-alumni-connectons-nous-pour-grandir-ensemble-lquipe-de-ens-alumni-LSm-sub-15 {
+}
+.frame-7-PhK .auto-group-fhx7-t17 .bienvenue-sur-lespace-exploration-des-rseaux-alumni-de-lcole-normale-suprieure-ens-un-lieu-ddi-la-dcouverte-et-la-connexion-au-sein-de-notre-communaut-mondiale-danciens-lves-notre-mission-notre-mission-est-de-crer-une-plateforme-dynamique-o-les-liens-perdurent-au-del-des-murs-de-luniversit-nous-aspirons-inspirer-les-tudiants-actuels-et-futurs-en-mettant-en-lumire-les-succs-varis-de-nos-anciens-diplms-tout-en-facilitant-les-connexions-et-les-collaborations-professionnelles-ce-que-nous-offrons-exploration-des-parcours-plongez-dans-les-rcits-fascinants-de-nos-alumni-explorant-leurs-diverses-trajectoires-professionnelles-et-personnelles-dcouvrez-comment-ils-ont-appliqu-leurs-connaissances-acquises-lens-dans-le-monde-rel-engagez-vous-avec-nous-rejoignez-nous-dans-cette-aventure-passionnante-de-dcouverte-et-de-connexion-explorez-les-profils-participez-des-vnements-partagez-vos-succs-et-contribuez-la-croissance-continue-de-notre-communaut-alumni-connectons-nous-pour-grandir-ensemble-lquipe-de-ens-alumni-LSm .bienvenue-sur-lespace-exploration-des-rseaux-alumni-de-lcole-normale-suprieure-ens-un-lieu-ddi-la-dcouverte-et-la-connexion-au-sein-de-notre-communaut-mondiale-danciens-lves-notre-mission-notre-mission-est-de-crer-une-plateforme-dynamique-o-les-liens-perdurent-au-del-des-murs-de-luniversit-nous-aspirons-inspirer-les-tudiants-actuels-et-futurs-en-mettant-en-lumire-les-succs-varis-de-nos-anciens-diplms-tout-en-facilitant-les-connexions-et-les-collaborations-professionnelles-ce-que-nous-offrons-exploration-des-parcours-plongez-dans-les-rcits-fascinants-de-nos-alumni-explorant-leurs-diverses-trajectoires-professionnelles-et-personnelles-dcouvrez-comment-ils-ont-appliqu-leurs-connaissances-acquises-lens-dans-le-monde-rel-engagez-vous-avec-nous-rejoignez-nous-dans-cette-aventure-passionnante-de-dcouverte-et-de-connexion-explorez-les-profils-participez-des-vnements-partagez-vos-succs-et-contribuez-la-croissance-continue-de-notre-communaut-alumni-connectons-nous-pour-grandir-ensemble-lquipe-de-ens-alumni-LSm-sub-16 {
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 1.3025;
+  color: #000000;
+  font-family: Inika, 'Source Sans Pro';
+}
+.frame-7-PhK .auto-group-fhx7-t17 .de9dc9-7870-4e8d-bcff-91da88d87cb4-1-Xyj {
+  width: 41rem;
+  height: 52.6rem;
+  position: absolute;
+  left: 103rem;
+  top: 0;
+  object-fit: cover;
+  vertical-align: top;
+}
+.frame-7-PhK .auto-group-q5vj-eoT {
+  width: 85.5rem;
+  height: 3.2rem;
+  position: absolute;
+  left: 3.5rem;
+  top: 18.3rem;
+  display: flex;
+  align-items: center;
+}
+.frame-7-PhK .auto-group-q5vj-eoT .home-YP3 {
+  margin-right: 4.8rem;
+  cursor: pointer;
+  font-size: 2.4rem;
+  font-weight: 400;
+  line-height: 1.3025;
+  color: #000000;
+  font-family: Inika, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.frame-7-PhK .auto-group-q5vj-eoT .info-FYM {
+  margin-right: 6.8rem;
+  font-size: 2.4rem;
+  font-weight: 400;
+  line-height: 1.3025;
+  color: #000000;
+  font-family: Inika, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.frame-7-PhK .auto-group-q5vj-eoT .profile-b6R {
+  margin-right: 6.5rem;
+  font-size: 2.4rem;
+  font-weight: 400;
+  line-height: 1.3025;
+  color: #000000;
+  font-family: Inika, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.frame-7-PhK .auto-group-q5vj-eoT .info-personnel-L41 {
+  margin-right: 5.4rem;
+  cursor: pointer;
+  font-size: 2.4rem;
+  font-weight: 400;
+  line-height: 1.3025;
+  color: #000000;
+  font-family: Inika, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.frame-7-PhK .auto-group-q5vj-eoT .contact-3DK {
+  margin-right: 4.6rem;
+  cursor: pointer;
+  font-size: 2.4rem;
+  font-weight: 400;
+  line-height: 1.3025;
+  color: #000000;
+  font-family: Inika, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.frame-7-PhK .auto-group-q5vj-eoT .autre-profile-y6y {
+  font-size: 2.4rem;
+  font-weight: 400;
+  line-height: 1.3025;
+  color: #000000;
+  font-family: Inika, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
